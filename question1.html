@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 1</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <div class="questionStyle">
+        <h3 align="center" class="headerStyle">Question 1</h3>
+        <div>
+        <div><p>Given points (x1,y1) and (x2,y2) select the formula to find the equation of the given line</p></div>
+        <div>
+            <table width="100%">
+                <td>
+                <table>
+                    <tr>
+                        <td><input type="radio" name="ans" id="1">
+                            <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>
+                        </td>
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+                        <td><input type="radio" name="ans" id="2">
+                            <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>x</mi><mo>-</mo><mi>h</mi><mo>)</mo><mn><sup>2</sup></mn><mo>+</mo><mo>(</mo><mi>y</mi><mo>-</mo><mi>k</mi><mo>)</mo><mn><sup>2</sup></mn><mo>=</mo><mi>r</mi><mn><sup>2</sup></mn></math>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="ans" id="3">
+                            <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>-</mo><mi>y</mi><mn><sub>1</sub></mn><mo>=</mo><mi>m</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>x</mi><mn><sub>1</sub></mn><mo>)</mo></math>
+                        </td>
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+                        <td><input type="radio" name="ans" id="4">
+                            <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>-</mo><mi>y</mi><mn><sub>2</sub></mn><mo>=</mo><mfrac><mrow><mi>y</mi><mn><sub>2</sub></mn><mo>-</mo><mi>y</mi><mn><sub>1</sub></mn></mrow><mrow><mi>x</mi><mn><sub>2</sub></mn><mo>-</mo><mi>x</mi><mn><sub>1</sub></mn></mrow></mfrac><mo>(</mo><mi>x</mi><mo>-</mo><mi>x</mi><mn><sub>2</sub></mn><mo>)</mo></math>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td align="shiftRight">
+                <svg xmlns="http://www.w3.org/2000/svg"xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <line x1="0"  y1="100" x2="100"   y2="100" style="stroke:black;" stroke-width="3"/>
+                    <line x1="0" y1="100" x2="0" y2="0" style="stroke:black;" stroke-width="3"/>
+                    <line x1="0" y1="100" x2="80" y2="20" style="stroke:black;" stroke-width="3"/>
+                    <rect x="50" y="50" width="3" height="3" fill="red" stroke="none"/>
+                    <text x="60" y="50" font-size="10" font-family="Verdana">(x2,y2)</text>
+                    <rect x="25" y="75" width="3" height="3" fill="red" stroke="none"/>
+                    <text x="35" y="85" font-size="10" font-family="Verdana">(x1,y1)</text>
+                </svg>
+            </td>
+            </table>
+        </div>
+        </div>
+        <br>
+        <div>
+            <button onclick="q1Submit()">Submit & Next Question</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="q1Clear()">Cancel & Clear Selection</button>
+        </div>
+    </div>
+</html>

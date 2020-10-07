@@ -1,0 +1,32 @@
+.headerStyle
+{
+    background-color: #E8E8E8;
+}
+.loginStyle
+{
+  width: 500px;
+  border: 2px solid black;
+  padding: 25px;
+  margin-left: 450px;
+  margin-top: 100px;
+}
+.questionStyle
+{
+  width: 1000px;
+  border: 2px solid black;
+  padding: 25px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+button
+{
+    border-radius: 25px;
+    background-color:transparent;
+    border-color: black;
+    width: 185px;
+    height: 30px;
+}
+.shiftRight{
+	float: right;
+	width: 30%;
+}

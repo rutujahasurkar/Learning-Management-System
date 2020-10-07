@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+    </body>
+    <div class="questionStyle">
+        <h3 align="center" class="headerStyle">Survey</h3>   
+        <p>How did you like the center?</p>
+        <div>
+            <table>
+                <tr>
+                    <td valign="top">Comments: </td>
+                    <td>
+                        <textarea rows="4" cols="50" class="textbox" id="30"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p>Select Text Area Location:</p>
+		<div>
+			City:
+		    <input list="city" name="browser" class="citytext">
+			<datalist id="city">
+			    <option value="San Jose">
+			    <option value="San Fransisco">
+			    <option value="Mountain View">
+			    <option value="Palo Alto">
+			    <option value="Sunnyvale">
+			</datalist>
+			Room Number:
+			<input list="rooms" name="browser" class="citytext" class="citytext">
+
+			<datalist id="rooms">
+			    <option value="Room 101">
+			    <option value="Room 102">
+			    <option value="Room 103">
+			    <option value="Room 104">
+			    <option value="Room 105">
+            </datalist>
+        </div>
+        <br>
+        <div align="center">
+            <button onclick="surveySubmit()">Submit & Get Score</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="surveySubmit()">Skip & Get Score</button>
+        </div>
+    </div>
+</html>
