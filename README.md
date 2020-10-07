@@ -9,5 +9,5 @@ Tools and Technologies : HTML, CSS, Javascript
 <img src="/LMS-Q3.png" alt="Q3"/>
 <img src="/LMS-Q4.png" alt="Q4"/>
 <img src="/LMS-Survey.png" alt="Survey"/>
-<img src="/LMS-ScoreCard.png" alt="Score Card"/>
+<img src="/LMS-SoreCard.png" alt="Score Card"/>
 
